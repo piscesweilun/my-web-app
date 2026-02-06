@@ -52,7 +52,6 @@ jobs:
           flags: '--allow-unauthenticated'
           env_vars: |
             ENV_NAME=Staging_Environment
-            PORT=8080
 
   # 第三步：部署到 Production (正式站) - 需要人工審核
   deploy-production:
@@ -74,4 +73,3 @@ jobs:
           flags: '--allow-unauthenticated'
           env_vars: |
             ENV_NAME=Production_Live
-            PORT=8080
